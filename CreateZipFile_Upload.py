@@ -9,10 +9,10 @@ import requests
 app = Flask(__name__)
 api = Api(app)
 
-userName = 'test216@test.com'
-password = 'SoujanyaDec01'
-securityToken = '5TFQGZqXzmheyvYcxvGc1zHc'
-instance = 'AP4'
+userName = 'SALESFORCE_USERNAME'
+password = 'SALESFORCE_PASSWORD'
+securityToken = 'SECURITY_TOKEN'
+instance = 'XXX' 
 
 class postFiles(Resource):
     #code here
